@@ -181,7 +181,7 @@ This will:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rust-websocket-server
+git clone https://github.com/sagarregmi2056/rust-websocket-server
 
 # Install dependencies
 npm install
@@ -207,7 +207,7 @@ MIT
 
 ## Author
 
-Your Name
+sagar regmi
 
 ## Support
 
