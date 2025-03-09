@@ -181,7 +181,7 @@ This will:
 
 ```bash
 # Clone the repository
-git clone https://github.com/sagarregmi2056/rust-websocket-server
+git clone https://github.com/sagarregmi2056/Rust-websocket-nodejs
 
 # Install dependencies
 npm install
@@ -212,7 +212,7 @@ sagar regmi
 ## Support
 
 For issues and feature requests, please visit:
-[GitHub Issues](https://github.com/yourusername/rust-websocket-server/issues)
+[GitHub Issues](https://github.com/sagarregmi2056/Rust-websocket-nodejs/issues)
 
 ## Contributing
 

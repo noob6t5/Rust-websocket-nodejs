@@ -1,12 +1,14 @@
 {
   "name": "rust-websocket-server",
-  "version": "0.1.1",
-  "description": "A high-performance WebSocket server implemented in Rust with Node.js bindings",
+  "version": "0.1.4",
+  "description": "High-performance WebSocket server implemented in Rust with Node.js bindings",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "build": "napi build --platform --release",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "node tests/simple-server.js",
+    "benchmark": "node benchmarks/benchmark.js"
   },
   "keywords": [
     "websocket",
@@ -22,13 +24,9 @@
     "type": "git",
     "url": "git+https://github.com/sagarregmi2056/Rust-websocket-nodejs.git"
   },
-  "dependencies": {
-    "@napi-rs/cli": "^2.16.5",
-    "rust-websocket-server": "^0.1.1",
-    "websocket": "^1.0.35",
-    "ws": "^8.18.1"
-  },
   "devDependencies": {
-    "@napi-rs/cli": "^2.16.5"
+    "@napi-rs/cli": "^2.16.5",
+    "ws": "^8.18.1",
+    "typescript": "^5.0.0"
   }
 }
